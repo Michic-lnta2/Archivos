@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de DOMt</title>
+</head>
+<body>
+    <h1 id = "titulo">Titulo original</h1>
+    <button onclick="cambiarTexto()">Cambiar texto</button>
+
+    <script>
+        function cambiarTexto()
+        {
+            //Acede al elemento con id "titulo" y cambia su texto
+            document.getElementById('titulo').innerText = "Titulo cambiado usando el DOM";
+            
+        }
+    </script>
+</body>
+</html>
